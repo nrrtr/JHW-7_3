@@ -45,11 +45,13 @@
                     <linkXRef>false</linkXRef>
                 </configuration>
                 <executions>
-                    <id>verify</id>
-                    <phase>verify</phase>
-                    <goals>
-                        <goal>check</goal>
-                    </goals>
+                    <execution>
+                        <id>verify</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
                 </executions>
             </plugin>
 
